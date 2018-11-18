@@ -1,3 +1,3 @@
 function myFunction() {
-    document.getElementById("p1").innerHTML = "now changed";
+    document.getElementById("introductory_text").innerHTML = "now changed";
 }
