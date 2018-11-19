@@ -15,7 +15,7 @@ function displayPic() {
 }
 
 function displayDate() {
-    return new Date();
+    document.getElementById("date").innerHTML = (new Date()).toString();
 }
 
 /**
