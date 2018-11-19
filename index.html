@@ -8,7 +8,10 @@
     <link rel="stylesheet" type="text/css" media="screen" href=".\styles.css" />
 </head>
 <body>
+    <!-- Header -->
     <h1>Alfred Mathew</h1>
+
+    <!-- Intro paragragh that can be changed with the press of a button -->
     <p1 id="introductory_text">This is my website where you can find my projects <br>
     I am a freshman CS major at the University of North Carolina at Chapel Hill.<br>
     One of my favorite hobbies is programming and I try to keep learning new <br>
@@ -20,7 +23,12 @@
     <br>
     Over the next few months, this webpage will be updated and continously 
     changed. <br></p1>
-    <button type="button" onclick="myFunction()">Try This</button>
+
+    <!-- Notice that in this button definition, onclick provides instructions
+    in javascript, this could be more useful than typing code in the .js file -->
+    <button type="button" onclick="displayDate()">Try This</button>
+
+    <!-- This is the call to the .js file that has all our functions in it -->
     <script src=".\main.js"></script>
 </body>
 </html>
