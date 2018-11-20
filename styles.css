@@ -5,8 +5,20 @@ h1 {
     margin-left: 200px;
 }
 
+#git_main {
+    color: red;
+    background-color: lightgreen;
+    padding: 14px 25px;
+    text-align: center;
+    display: inline-block;
+}
+
+#git_main:hover, #git_main:active {
+    background-color: black;
+}
+
 body {
-    background-color: white;
+    background-color: lightgray;
 }
 
 #my_pic {
