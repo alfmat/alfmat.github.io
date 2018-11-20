@@ -5,6 +5,15 @@ h1 {
     margin-left: 200px;
 }
 
+#prog_langs{
+    list-style-type: lower-roman;
+}
+
+#my_git_frame {
+    height: 500px;
+    width: 100%;
+}
+
 #git_main {
     color: red;
     background-color: lightgreen;
