@@ -10,29 +10,24 @@
 
 <header id = "main_heading">Alfred Mathew</header>
 
+<section>
 <nav id = "my_links">
     <a id = "git_main" href = "https://github.com/alfmat">Projects and Github</a>
 </nav>
-
-<aside id = "date_button">
-    <button type="button" onclick="displayDate()">Show me the Date</button>
-</aside>
-
-<section id="introductory_text">
-    
-        This is my website where you can find my projects. 
-        I am a freshman CS major at the University of North Carolina at Chapel Hill.
-        One of my favorite hobbies is programming and I try to keep learning new 
-        languages whenever I have the chance. Right now I am proficient in:<br>
-        <ol id = "prog_langs">
-            <li>Java</li> 
-            <li>C++</li> 
-            <li>Python</li>  
-            <li>HTML</li>
-        </ol>
-        Over the next few months, this webpage will be updated and continously 
-        changed. <br>
-    
+<article id="introductory_text">
+    <p>This is my website where you can find my projects. 
+    I am a freshman CS major at the University of North Carolina at Chapel Hill.
+    One of my favorite hobbies is programming and I try to keep learning new 
+    languages whenever I have the chance. Right now I am proficient in:</p>
+    <ol id = "prog_langs">
+        <li>Java</li> 
+        <li>C++</li> 
+        <li>Python</li>  
+        <li>HTML</li>
+    </ol>
+    <p>Over the next few months, this webpage will be updated and continously 
+    changed.</p>
+    </article>
 </section>
 <body>
 
@@ -45,14 +40,12 @@
     <!-- Notice that in this button definition, onclick provides instructions
     in javascript, this could be more useful than typing code in the .js file -->
 
-    
-
-    
-    <div id="date"></div>
-
-    <iframe id = "my_git_frame" src="https://www.youtube.com"></iframe>
+    <iframe id = "my_git_frame" src="https://cs.unc.edu"></iframe>
 
     <!-- This is the call to the .js file that has all our functions in it -->
     <script src=".\main.js"></script>
 </body>
+<footer>
+    <p id = "footer">Created by Alfred M.</p>
+</footer>
 </html>
