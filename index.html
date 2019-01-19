@@ -1,51 +1,71 @@
-<!DOCTYPE <!DOCTYPE html>
+<!doctype <!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Alfred's Website</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href=".\styles.css" />
+    <title>Alfred Mathew's Website</title>
+    <meta name="Alfred's Webstie"  content="personal information">
+    <link href="./css/styles.css" type="text/css" rel="stylesheet">
 </head>
-
-<header id = "main_heading">Alfred Mathew</header>
-
-<section>
-<nav id = "my_links">
-    <a id = "git_main" href = "https://github.com/alfmat">Projects and Github</a>
-</nav>
-<article id="introductory_text">
-    <p>This is my website where you can find my projects. 
-    I am a freshman CS major at the University of North Carolina at Chapel Hill.
-    One of my favorite hobbies is programming and I try to keep learning new 
-    languages whenever I have the chance. Right now I am proficient in:</p>
-    <ol id = "prog_langs">
-        <li>Java</li> 
-        <li>C++</li> 
-        <li>Python</li>  
-        <li>HTML</li>
-    </ol>
-    <p>Over the next few months, this webpage will be updated and continously 
-    changed.</p>
-    </article>
-</section>
 <body>
-
-    <!-- <div>
-        <img id = "my_pic" src = "./pics/face.jpg">
-    </div> -->
-
-    <!-- Intro paragragh that can be changed with the press of a button -->
-
-    <!-- Notice that in this button definition, onclick provides instructions
-    in javascript, this could be more useful than typing code in the .js file -->
-
-    <iframe id = "my_git_frame" src="https://cs.unc.edu"></iframe>
-
-    <!-- This is the call to the .js file that has all our functions in it -->
-    <script src=".\main.js"></script>
+    <header>
+        <h1>Alfred Mathew</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="https://github.com/alfmat" title="link to github">My Github Account</a>
+                </li>
+                <li>
+                    <a href="./docs/AM_Resume.pdf" title="link to resume" target="_blank" download="Alfred's Resume">My Resume</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <article title="a brief intro">
+        <section>
+            <h2>About Me</h2>
+            <img src="./pics/face.jpg" align="right" width="300" height="300">
+            <p>
+                Hello and Welcome to my website. I am a 18 year old CS
+                major at UNC-Chapel Hill. My interests include: running,
+                biking, teaching, and programming. I have been at UNC for 
+                about a semester an I'm thoroughly enjoying it. In this
+                website you can find information about me, Including what
+                I'm working on at the moment.
+            </p>
+        </section>
+        <section>
+            <h2>Programming Knowledge</h2>
+            <p>
+                My current programming skills include:
+                <ol>
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>HTML</li>
+                    <li>C++</li>
+                </ol>
+            </p>
+            <p>
+                My dedication to programming drives me to
+                learn new languages. I am currently working
+                on learning Tableau and R.
+            </p>
+            <p>
+                My strongest asset, currently, is my Knowledge
+                of OOP. I have been studying Java for more than
+                five years and I've gained a thorough understanding
+                of the concepts of Abstraction, Polymorphism, Encapsulation, 
+                and inheritance.
+            </p>
+        </section>
+    </article>
+    <footer>
+        <address>
+            <p>
+                For more information, you can reach me at:<br>
+                alfmat@live.unc.edu
+            </p>
+        </address>
+    </footer>
 </body>
-<footer>
-    <p id = "footer">Created by Alfred M.</p>
-</footer>
 </html>
