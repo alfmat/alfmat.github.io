@@ -1,5 +1,10 @@
 body {
-  background-color: rgb(242, 244, 247);
+  background-color: white;
+}
+
+.post {
+  /* background-color: ; */
+  color: white;
 }
 
 /* #intro {
