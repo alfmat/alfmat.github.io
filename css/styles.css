@@ -7,6 +7,10 @@ body {
   color: white;
 }
 
+.preview_pic {
+  width: 200px;
+  height: 250px;
+}
 /* #intro {
   margin-top: 20px;
 } */
