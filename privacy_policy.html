@@ -19,7 +19,219 @@
           </button>
         </div>
     </div>
-    <main class="container">
+    <div style="text-align: center; margin-bottom: 20px; margin-top: 20px;">
+        <h1>Our Privacy Policy</h1>
+    </div>
+    <div class="row">
+        <div class="col-4">
+          <div class="list-group" id="list-tab" role="tablist">
+            <a class="list-group-item list-group-item-action active" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="home">Overview</a>
+            <!-- <a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list" href="#list-profile" role="tab" aria-controls="profile">What data are you using?</a>
+            <a class="list-group-item list-group-item-action" id="list-messages-list" data-bs-toggle="list" href="#list-messages" role="tab" aria-controls="messages">How is my data used?</a> -->
+            <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="settings">FAQs</a>
+          </div>
+        </div>
+        <div class="col-8">
+          <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+                <h4>
+                    Purpose
+                </h4>
+                <p>
+                    UNC MTC Simplifier is an application developed by the UNC Department of Computer Science.
+                    Our goal in creating this application was to simplify the process of converting documents to the Plain Language Format.
+                </p>
+                <p>
+                    This is a standard used by the federal government for conveying complex medical documents
+                    to Americans with reading disabilities. The add-on is geared towards researchers and medical professionals.
+                </p>
+                <h4>
+                    User Data Usage
+                </h4>
+                <p>
+                    The following section explains our user data usage and our intentions for asking users for their data. We provide a comprehensive
+                    explanation of our intent ensure users of the safety and security of their data.
+                </p>
+                <h5>
+                    What application requests my data?
+                </h5>
+                <p>
+                    The UNC MTC Simplifier is the only application in this add-on. Subsequently, this is the only application that
+                    requests and utilizes your data. No other application has access to any of your data.
+                </p>
+                <h5>
+                    What data does this app use?
+                </h5>
+                <p>
+                    The add-on works by accessing the contents of your documents and using the contents to produce a variety of readability
+                    metrics. This is the only piece of user data we use. We do not collect your Google email, password, or any other account information.
+                    The contents of your document are not stored anywhere or shared with anyone. 
+                </p>
+                <h5>
+                    How is my data used?
+                </h5>
+                <p>
+                    They are used solely to calculate readability metrics and
+                    disappear after the metrics have been calculated. Here are the metrics we calculate for you using the contents of your document:
+                </p>
+                <table class="table">
+                    <thead class="thead-dark">
+                      <tr>
+                        <th scope="col">Metric</th>
+                        <th scope="col">What is it?</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                            <a href="#">Word Count</a>
+                        </td>
+                        <td>Number of words in the document.</td>
+                      </tr>
+                      <tr>
+                        <td>
+                            <a href="#">
+                                Sentence Length
+                            </a>
+                        </td>
+                        <td>Average number of words per sentence.</td>
+                      </tr>
+                      <tr>
+                        <td>
+                            <a href="#">
+                                Syllables/Word
+                            </a>
+                        </td>
+                        <td>Average number of syllables per word.</td>
+                      </tr>
+                      <tr>
+                        <td>
+                            <a href="#">
+                                &lt;3000 ratio
+                            </a>
+                        </td>
+                        <td>Proportion of words in the document that are within the top 3000 words of the English language.</td>
+                      </tr>
+                      <tr>
+                        <td>
+                            <a href="#">
+                                Type-Token
+                            </a>
+                        </td>
+                        <td>The ratio of unique words to total words in the document.</td>
+                      </tr>
+                      <tr>
+                        <td>
+                            <a href="#">
+                                Flesh-Kincaid
+                            </a>
+                        </td>
+                        <td>The minimum U.S. grade level required to understand your document.</td>
+                      </tr>
+                      <tr>
+                        <td>
+                            <a href="#">
+                                Flesh-Reading
+                            </a>
+                        </td>
+                        <td>Provides a score from 0-100. A score of 0 means your document is very easy to read, whereas a score of 100 implies a document that is difficult to read.</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                <p>
+                    These are the only metrics that we compute using your documents contents and they are displayed to you immediately in
+                    a sidepanel.
+                </p>
+            </div>
+            <!-- <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+                <p>
+                    Our application computes various metrics for you as you type your document.
+                </p>
+                <p>
+                    In order to do so, we request access to the contents of your document when you first install our add-on.
+                    After this, we periodically take the contents of your document and analyze various metrics.
+                    We compute the number of syllables, Flesh-Kincaid, Flesh-Reading, average sentence length, etc. 
+                </p>
+                <p>
+                    The computation of these metrics happens within Google Cloud and not on our servers. We
+                    do not make copies of your document and store them anywhere. We compute the metrics and conveniently
+                    provide them to you in a sidepanel.
+                </p>
+                <p>
+                    You might notice the add-on periodically refreshing and updating on its own. When this happens it just means
+                    that it is attempting to send your document to Google Cloud and then recompute the metrics.
+                </p>
+                <p>
+                    The only other permission we request from you is to showcase a sidebar in Google Docs. This allows us to quickly
+                    and efficiently show you relevant information about your document. We do not use this sidebar to display adds or
+                    any other promotional content.
+                </p>
+            </div> -->
+            <!-- <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+                <p>
+                    As mentioned in the section "What data are we using?" we only access the contents of your document in order to
+                    compute readability metrics.
+                </p>
+                <p>
+                    By accessing the contents of your documents, we are able to easily calculate Flesh-Kincaid and Flesh-Reading scores
+                    which are useful metrics in determining the complexity of your document.
+                </p>
+                <p>
+                    We built this product with the intention of helping researchers across UNC, Georgia Tech, and the CDC simplify their
+                    documents. We do not intend to profit off of this extension in any way. Thus we do not sell or monetize your user data,
+                    particularly the contents of your document. 
+                </p>
+            </div> -->
+            <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
+                <h4>
+                    Q. Who can I contact for more information about the privacy policy?
+                </h4>
+                <p>
+                    Feel free to reach out to Gary Bishop: gb at cs.unc.edu or Alfred Mathew: alfmat
+                    at live.unc.edu for any comments, concerns, or queries. We would be happy to clarify
+                    anything that wasn't clear on the website and we are open to hearing suggestions for improvements
+                    to our privacy policy.
+                </p>
+                <h4>
+                    Q. Why does the add-on need to see my document's contents?
+                </h4>
+                <p>
+                    This add-on's primary purpose is to help users simplify their documents. We do this by
+                    computing various readability metrics that help you assess how difficult or easy your
+                    document is to understand.
+                </p>
+                <p>
+                    Obviously, none of this would be possible if we can't have access to the contents of your document.
+                    We can't tell you the word count or syllables/sentence if we can't even see what you've typed out.
+                </p>
+                <h4>
+                    Q. Are the contents of my document shared with anyone?
+                </h4>
+                <p>
+                    Absolutely No! Even we the developers don't have access to what you've typed.
+                </p>
+                <p>
+                    When the add-on runs, it copies the text of your document and sends it to Google Cloud.
+                    All the computation that figures out how many syllables are in your document or
+                    the number of words in your document take place there. This data is not stored or shared with
+                    anyone. 
+                </p>
+                <h4>
+                    Q. Do you make a profit from user data?
+                </h4>
+                <p>
+                    In short, we don't! This is because we don't share your data or collect it for ourselves.
+                </p>
+                <p>
+                    Our goal with this add-on was to help researchers simplify documents for the CDC.
+                    Our project helps Americans with reading disabilities to get access to high-quality informative
+                    material that is easy to understand. That's greatest profit that our team is after!
+                </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- <main class="container">
         <div class="starter-template text-center py-5 px-3">
             <h1>Privacy Policy</h1>
             <p>By using this add-on, you (the user) allow us to modify the formatting of your document, including but not limited to: the bold and underline setting of words. </p>
@@ -27,9 +239,24 @@
             <p>For inquiries contact Gary Bishop: <strong>gb at cs.unc.edu</strong></p>
             <p>Alfred Mathew <strong>alfmat at live.unc.edu</strong></p>
         </div>
-    </main>
+    </main> -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script>
+        $('.list-group-item').on('click', function() {
+            $('.list-group-item').removeClass('active')
+            let id = $(this).attr('id').slice(0,-5);
+            $(this).toggleClass('active');
+
+            let panel = $('.tab-pane');
+            panel.removeClass('show');
+            panel.removeClass('active');
+
+            let text =  $('#' + id);
+            text.addClass('show');
+            text.addClass('active');
+        })
+    </script>
 </body>
 </html>
