@@ -1,0 +1,26 @@
+{
+  "name": "alfmat.github.io",
+  "version": "1.0.0",
+  "description": "This is my personal website! I am currently experimenting with the design\r process and hope that this project will be completed soon.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alfmat/alfmat.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alfmat/alfmat.github.io/issues"
+  },
+  "homepage": "https://github.com/alfmat/alfmat.github.io#readme",
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "jquery": "^3.6.0"
+  }
+}
